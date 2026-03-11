@@ -1,0 +1,58 @@
+import Image from "next/image";
+
+export default function TrainingShowcase() {
+  return (
+    <section className="relative overflow-hidden bg-gradient-to-br from-sky-50 via-[#f8fbff] to-[#eef7ff]">
+      <div className="absolute -top-20 -right-24 h-[420px] w-[420px] rounded-full bg-sky-200/35 blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 h-40 w-40 rounded-full bg-blue-100/30 blur-3xl"></div>
+
+      <div className="mx-auto grid min-h-[220px] max-w-7xl items-end gap-12 px-6 pt-20 lg:grid-cols-2 lg:gap-16">
+        {/* TEXT */}
+        <div className="pb-20 lg:pb-24">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-600">
+            Skill Training
+          </p>
+
+          <h2 className="mt-4 max-w-xl text-3xl font-bold leading-tight text-slate-950 sm:text-4xl lg:text-5xl">
+            Helping professionals transition into tech
+          </h2>
+
+          <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
+            Our training programmes are designed for individuals who want to break into the technology industry. We focus on practical skills, real-world projects, and career preparation so learners can confidently move into technical roles.
+          </p>
+
+          <div className="mt-8 space-y-5 text-slate-800">
+            <div className="flex items-start gap-3">
+              <div className="mt-2 h-3 w-3 rounded-full bg-sky-500"></div>
+              <span>Corporate digital skills training</span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <div className="mt-2 h-3 w-3 rounded-full bg-sky-500"></div>
+              <span>Hands-on workshops and learning sessions</span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <div className="mt-2 h-3 w-3 rounded-full bg-sky-500"></div>
+              <span>Technical interview preparation</span>
+            </div>
+          </div>
+        </div>
+
+        {/* IMAGE */}
+        <div className="relative flex items-end justify-center lg:justify-end">
+          <div className="absolute bottom-10 right-8 h-56 w-56 rounded-full bg-sky-200/25 blur-3xl"></div>
+          <div className="absolute bottom-0 left-1/2 z-0 h-20 w-[70%] -translate-x-1/2 rounded-full bg-sky-900/5 blur-2xl"></div>
+
+          <Image
+            src="/images/training-woman.png"
+            alt="Learning with laptop"
+            width={1200}
+            height={1200}
+            className="relative z-10 h-auto w-full max-w-[760px] object-contain object-bottom lg:translate-x-8"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}

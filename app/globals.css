@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --oviprime-primary: #38bdf8;
+  --oviprime-primary-dark: #0ea5e9;
+  --oviprime-navy: #0f172a;
+  --oviprime-text: #334155;
+  --oviprime-soft: #f8fbff;
+  --oviprime-soft-blue: #f0f9ff;
+  --oviprime-border: #dbeafe;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: var(--oviprime-navy);
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
