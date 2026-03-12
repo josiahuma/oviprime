@@ -2,12 +2,10 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-sky-50 via-[#f8fbff] to-[#eef7ff] isolate">
-      <div className="pointer-events-none absolute -top-20 -right-24 h-[420px] w-[420px] rounded-full bg-sky-200/30 blur-2xl filter"></div>
-      <div className="pointer-events-none absolute bottom-10 right-10 h-56 w-56 rounded-full bg-sky-200/25 blur-2xl filter"></div>
+    <section className="relative isolate overflow-hidden bg-gradient-to-br from-sky-50 via-[#f8fbff] to-[#eef7ff]">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(125,211,252,0.18),transparent_28%),radial-gradient(circle_at_bottom_left,rgba(191,219,254,0.16),transparent_22%)]"></div>
 
       <div className="relative mx-auto grid min-h-[220px] max-w-7xl items-end gap-10 px-6 pt-16 lg:grid-cols-2 lg:gap-16 lg:pt-24">
-        {/* LEFT TEXT */}
         <div className="pb-20 lg:pb-24">
           <div className="mb-5 inline-block rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-medium text-sky-700">
             Empowering people and organisations through technology
@@ -38,11 +36,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* RIGHT IMAGE */}
         <div className="relative flex items-end justify-center lg:justify-end">
-          <div className="absolute bottom-10 right-10 h-56 w-56 rounded-full bg-sky-200/25 blur-3xl"></div>
-          <div className="absolute bottom-0 left-1/2 z-0 h-20 w-[70%] -translate-x-1/2 rounded-full bg-sky-900/5 blur-2xl"></div>
-
           <Image
             src="/images/hero-team.png"
             alt="Professionals collaborating"
