@@ -37,16 +37,11 @@ export default function Hero() {
         </div>
 
         <div className="order-2 relative mt-6 flex items-end justify-center lg:order-2 lg:mt-0 lg:justify-end">
-          <Image
-            src="/images/hero-team.png"
-            alt="Professionals collaborating"
-            width={1920}
-            height={1080}
-            priority
-            unoptimized
-            sizes="(max-width: 768px) 100vw, 700px"
-            className="relative z-10 h-auto w-full max-w-[700px] object-contain object-bottom"
-          />
+          <img
+              src="/images/hero-team.png"
+              alt="Professionals collaborating"
+              className="relative z-10 h-auto w-full max-w-[700px] object-contain"
+            />
         </div>
       </div>
     </section>
