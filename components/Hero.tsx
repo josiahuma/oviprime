@@ -1,12 +1,8 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
-    <section className="relative isolate overflow-hidden bg-gradient-to-br from-sky-50 via-[#f8fbff] to-[#eef7ff]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(125,211,252,0.18),transparent_28%),radial-gradient(circle_at_bottom_left,rgba(191,219,254,0.16),transparent_22%)]"></div>
-
-      <div className="relative mx-auto grid min-h-[220px] max-w-7xl items-end gap-10 px-6 pt-16 lg:grid-cols-2 lg:gap-16 lg:pt-24">
-        <div className="order-1 pb-20 lg:order-1 lg:pb-24">
+    <section className="relative overflow-hidden bg-gradient-to-br from-sky-50 via-[#f8fbff] to-[#eef7ff]">
+      <div className="relative mx-auto grid max-w-7xl gap-10 px-6 pt-16 lg:grid-cols-2 lg:gap-16 lg:pt-24">
+        <div className="pb-20 lg:pb-24">
           <div className="mb-5 inline-block rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-medium text-sky-700">
             Empowering people and organisations through technology
           </div>
@@ -36,12 +32,12 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="order-2 relative mt-6 flex items-end justify-center lg:order-2 lg:mt-0 lg:justify-end">
+        <div className="mt-6 flex justify-center lg:mt-0 lg:justify-end">
           <img
-              src="/images/hero-team.png"
-              alt="Professionals collaborating"
-              className="relative z-10 h-auto w-full max-w-[700px] object-contain"
-            />
+            src="/images/hero-team.png"
+            alt="Professionals collaborating"
+            className="h-auto w-full max-w-[700px] object-contain"
+          />
         </div>
       </div>
     </section>
