@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 export default function HomePage() {
   return (
     <main className="bg-white text-slate-900">
-
+      <Navbar />
 
     </main>
   );
