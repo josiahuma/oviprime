@@ -3,7 +3,8 @@ import Image from "next/image";
 export default function TrainingShowcase() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-sky-50 via-[#f8fbff] to-[#eef7ff]">
-      
+      <div className="absolute -top-20 -right-24 h-[420px] w-[420px] rounded-full bg-sky-200/35 blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 h-40 w-40 rounded-full bg-blue-100/30 blur-3xl"></div>
 
       <div className="mx-auto grid min-h-[220px] max-w-7xl items-end gap-12 px-6 pt-20 lg:grid-cols-2 lg:gap-16">
         {/* TEXT */}
@@ -40,9 +41,6 @@ export default function TrainingShowcase() {
 
         {/* IMAGE */}
         <div className="relative flex items-end justify-center lg:justify-end">
-          <div className="absolute bottom-10 right-8 h-56 w-56 rounded-full bg-sky-200/25 blur-3xl"></div>
-          <div className="absolute bottom-0 left-1/2 z-0 h-20 w-[70%] -translate-x-1/2 rounded-full bg-sky-900/5 blur-2xl"></div>
-
           <Image
             src="/images/training-woman.png"
             alt="Learning with laptop"
