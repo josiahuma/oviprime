@@ -12,8 +12,6 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <Services />
-      <About />
-
     </main>
   );
 }
