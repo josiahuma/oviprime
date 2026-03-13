@@ -12,6 +12,9 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <Services />
+      <TrainingShowcase />
+      <WhyChooseUs />
+      <Footer />
     </main>
   );
 }
