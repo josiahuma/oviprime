@@ -11,6 +11,7 @@ export default function HomePage() {
     <main className="bg-white text-slate-900">
       <Navbar />
       <Hero />
+      <Services />
     </main>
   );
 }
