@@ -14,7 +14,8 @@ export default function HomePage() {
       <Services />
       <TrainingShowcase />
       <About />
-
+      <WhyChooseUs />
+      <Footer />
     </main>
   );
 }
