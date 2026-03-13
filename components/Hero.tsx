@@ -35,7 +35,16 @@ export default function Hero() {
             </div>
           </div>
 
-          
+          <div className="relative flex items-end justify-center lg:justify-end">
+            <Image
+              src="/images/hero-team.png"
+              alt="Professionals collaborating"
+              width={1920}
+              height={1080}
+              priority
+              className="relative z-10 h-auto w-full max-w-[700px] object-contain object-bottom"
+            />
+          </div>
         </div>
     </section>
   );

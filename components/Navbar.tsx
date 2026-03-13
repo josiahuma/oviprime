@@ -20,7 +20,7 @@ export default function Navbar() {
   const closeMenu = () => setMobileOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-sky-100 bg-white/85 backdrop-blur-md">
+    <header >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center" onClick={closeMenu}>
           <Image
