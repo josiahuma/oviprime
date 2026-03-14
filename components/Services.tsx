@@ -33,7 +33,7 @@ const services = [
   {
     title: "Corporate Training & IT Consultancy",
     icon: BuildingOffice2Icon,
-    href: "/consulting",
+    href: "/training#contact",
     description:
       "We help organisations strengthen their digital capability through professional training programmes and strategic technology consultancy.",
     points: [
