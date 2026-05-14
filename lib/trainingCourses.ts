@@ -9,6 +9,8 @@ export const trainings = [
     mode: "Online / Hybrid",
     startDate: "Next cohort starts soon",
     time: "Evenings & weekends",
+    eventUrl:
+      "https://eventib.com/events/01K5HT89YXADAZPG6YGM8DT2GS",
     curriculum: [
       "Introduction to Business Analysis",
       "Requirement gathering and stakeholder management",
@@ -19,6 +21,7 @@ export const trainings = [
       "Interview preparation and portfolio support",
     ],
   },
+
   {
     slug: "it-support",
     title: "IT Support Training",
@@ -29,6 +32,8 @@ export const trainings = [
     mode: "Online / Hybrid",
     startDate: "Next cohort starts soon",
     time: "Evenings & weekends",
+    eventUrl:
+      "https://eventib.com/organizers/oviprime",
     curriculum: [
       "Computer hardware and software basics",
       "Windows and user account support",
@@ -39,6 +44,7 @@ export const trainings = [
       "CV, interview and job readiness support",
     ],
   },
+
   {
     slug: "web-development",
     title: "Web Development Training",
@@ -49,6 +55,8 @@ export const trainings = [
     mode: "Online / Hybrid",
     startDate: "Next cohort starts soon",
     time: "Evenings & weekends",
+    eventUrl:
+      "https://eventib.com/organizers/oviprime",
     curriculum: [
       "HTML and CSS fundamentals",
       "Responsive web design",

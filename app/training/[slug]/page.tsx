@@ -144,9 +144,11 @@ export default async function TrainingDetailPage({ params }: PageProps) {
               </div>
 
               <a
-                href="https://eventib.com/organizers/oviprime"
+                href={training.eventUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-8 inline-flex w-full justify-center rounded-full bg-sky-700 px-5 py-3 text-sm font-semibold text-white transition hover:bg-sky-600"
-              >
+               >
                 Register Interest
               </a>
             </aside>
