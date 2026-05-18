@@ -6,7 +6,7 @@ export const trainings = [
     duration: "8 Weeks",
     mode: "Online / Hybrid",
     startDate: "September 2026",
-    time: "Weekends & Evening Sessions",
+    time: "Evening Sessions",
     registerUrl: "https://eventib.com/events/01K5HT89YXADAZPG6YGM8DT2GS",
 
     description:
