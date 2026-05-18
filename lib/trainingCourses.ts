@@ -7,7 +7,7 @@ export const trainings = [
     mode: "Online / Hybrid",
     startDate: "September 2026",
     time: "Evening Sessions",
-    registerUrl: "https://eventib.com/events/01K5HT89YXADAZPG6YGM8DT2GS",
+    eventUrl: "https://eventib.com/events/01K5HT89YXADAZPG6YGM8DT2GS",
 
     description:
       "Develop practical business analysis skills used by modern organisations to improve processes, deliver successful projects, and support digital transformation initiatives. This programme is designed for aspiring Business Analysts, career changers, and professionals looking to strengthen analytical and stakeholder management skills.",
