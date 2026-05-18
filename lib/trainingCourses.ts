@@ -5,7 +5,7 @@ export const trainings = [
     image: "/images/training-business-analysis.jpg",
     duration: "8 Weeks",
     mode: "Online / Hybrid",
-    startDate: "September 2026",
+    startDate: "Next cohort starts soon",
     time: "Evening Sessions",
     eventUrl: "https://eventib.com/events/01K5HT89YXADAZPG6YGM8DT2GS",
 
